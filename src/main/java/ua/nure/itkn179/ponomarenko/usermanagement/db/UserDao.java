@@ -1,4 +1,4 @@
-package db;
+package main.java.ua.nure.itkn179.ponomarenko.usermanagement.db;
 import java.util.Collection;
 public interface UserDao {
 
