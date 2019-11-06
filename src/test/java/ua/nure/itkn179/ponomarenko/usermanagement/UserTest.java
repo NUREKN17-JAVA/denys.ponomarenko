@@ -1,9 +1,9 @@
-package ua.nure.itkn179.ponomarenko.usermanagement;
+package test.java.ua.nure.itkn179.ponomarenko.usermanagement;
 
 import java.util.Calendar;
 import java.util.Date;
 import junit.framework.TestCase;
-
+import main.java.ua.nure.itkn179.ponomarenko.usermanagement.User;
 
 
 public class UserTest extends TestCase {
@@ -15,7 +15,7 @@ public class UserTest extends TestCase {
 
 	private static final int ETALON_AGE1 = CURRENT_YEAR - YEAR_OF_BIRTH;
 	private static final int DAY_OF_BIRTH1 = 1;
-	private static final int MONTH_OF_BIRTH1 = Calendar.DECEMBER;
+	private static final int MONTH_OF_BIRTH1 = Calendar.SEPTEMBER;
 	
 	
 
@@ -29,15 +29,15 @@ public class UserTest extends TestCase {
 	private static final int MONTH_OF_BIRTH3 = Calendar.NOVEMBER;
 	
 
-	private static final int ETALON_AGE4 = CURRENT_YEAR - YEAR_OF_BIRTH - 1;
-	private static final int DAY_OF_BIRTH4 = 4;
-	private static final int MONTH_OF_BIRTH4 = Calendar.JANUARY;
+	private static final int ETALON_AGE4 = CURRENT_YEAR - YEAR_OF_BIRTH ;
+	private static final int DAY_OF_BIRTH4 = 3;
+	private static final int MONTH_OF_BIRTH4 = Calendar.FEBRUARY;
 	
 
 	
-	private static final int ETALON_AGE5 = CURRENT_YEAR - YEAR_OF_BIRTH - 1;
-	private static final int DAY_OF_BIRTH5 = 5;
-	private static final int MONTH_OF_BIRTH5 = Calendar.APRIL;
+	private static final int ETALON_AGE5 = CURRENT_YEAR - YEAR_OF_BIRTH ;
+	private static final int DAY_OF_BIRTH5 = 7;
+	private static final int MONTH_OF_BIRTH5 = Calendar.OCTOBER;
 	
 	
 	
