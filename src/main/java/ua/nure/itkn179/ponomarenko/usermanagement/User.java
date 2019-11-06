@@ -1,4 +1,4 @@
-package ua.nure.itkn179.ponomarenko.usermanagement;
+package main.java.ua.nure.itkn179.ponomarenko.usermanagement;
 
 import java.io.Serializable;
 import java.util.Calendar;
