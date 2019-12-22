@@ -64,14 +64,14 @@ public class UserTest extends TestCase {
         Calendar calendar = Calendar.getInstance();
         calendar.set(YEAR_OF_BIRTH, MONTH_OF_BIRTH1, DAY_OF_BIRTH1);
         dateOfBirthd = calendar.getTime();
-        user.setDateOfBirthd(dateOfBirthd);
+        user.setDateOfBirth(dateOfBirthd);
         assertEquals(ETALON_AGE1, user.getAge());
     }
     public void testGetAge2() {
         Calendar calendar = Calendar.getInstance();
         calendar.set(YEAR_OF_BIRTH, MONTH_OF_BIRTH2, DAY_OF_BIRTH2);
         dateOfBirthd = calendar.getTime();
-        user.setDateOfBirthd(dateOfBirthd);
+        user.setDateOfBirth(dateOfBirthd);
         assertEquals(ETALON_AGE2, user.getAge());
     }
 
@@ -79,7 +79,7 @@ public class UserTest extends TestCase {
         Calendar calendar = Calendar.getInstance();
         calendar.set(YEAR_OF_BIRTH, MONTH_OF_BIRTH3, DAY_OF_BIRTH3);
         dateOfBirthd = calendar.getTime();
-        user.setDateOfBirthd(dateOfBirthd);
+        user.setDateOfBirth(dateOfBirthd);
         assertEquals(ETALON_AGE3, user.getAge());
     }
 
@@ -87,7 +87,7 @@ public class UserTest extends TestCase {
         Calendar calendar = Calendar.getInstance();
         calendar.set(YEAR_OF_BIRTH, MONTH_OF_BIRTH4, DAY_OF_BIRTH4);
         dateOfBirthd = calendar.getTime();
-        user.setDateOfBirthd(dateOfBirthd);
+        user.setDateOfBirth(dateOfBirthd);
         assertEquals(ETALON_AGE4, user.getAge());
     }
 
@@ -95,7 +95,7 @@ public class UserTest extends TestCase {
         Calendar calendar = Calendar.getInstance();
         calendar.set(YEAR_OF_BIRTH, MONTH_OF_BIRTH5, DAY_OF_BIRTH5);
         dateOfBirthd = calendar.getTime();
-        user.setDateOfBirthd(dateOfBirthd);
+        user.setDateOfBirth(dateOfBirthd);
         assertEquals(ETALON_AGE5, user.getAge());
     }
 

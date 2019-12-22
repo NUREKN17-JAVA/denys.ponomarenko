@@ -31,10 +31,10 @@ public class User implements Serializable {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public Date getDateOfBirthd() {
+    public Date getDateOfBirth() {
         return dateOfBirthd;
     }
-    public void setDateOfBirthd(Date dateOfBirthd) {
+    public void setDateOfBirth(Date dateOfBirthd) {
         this.dateOfBirthd = dateOfBirthd;
     }
     public Object getFullName() {
@@ -47,7 +47,7 @@ public class User implements Serializable {
         int currentYear = calendar.get(Calendar.YEAR);
         int currentMonth = calendar.get(Calendar.MONTH);
         int currentDay = calendar.get(Calendar.DAY_OF_MONTH);
-        calendar.setTime(getDateOfBirthd());
+        calendar.setTime(getDateOfBirth());
         int year = calendar.get(Calendar.YEAR);
         int month = calendar.get(Calendar.MONTH);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
